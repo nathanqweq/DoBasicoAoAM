@@ -1,5 +1,5 @@
 #SEÇÃO DE BIBLIOTECAS
-import random, os, PySimpleGUI as sg
+import random, os
 
 #SEÇÃO DE FUNÇÕES
 def dadod6():
@@ -108,21 +108,6 @@ def menuprincipal():
         menuprincipal()
 
 #MAIN
-#menuprincipal()
-
-sg.theme('DarkBlue')
-
-layout = [
-    [sg.Text('SIMULADOR DE DADOS')],
-    [sg.Button('Dado D6'), sg.Button('Dado D10'),sg.Button('Dado D20')],
-    [sg.Button('cancel')]
-]
-
-tela = sg.Window('Simulador de dado by nathan', layout)
-
-while True:
-    event, values = tela.read()
-    if event in (None, 'cancel'):
-        break
+menuprincipal()
     print('voce digitou: ', values[0])
 tela.close()
