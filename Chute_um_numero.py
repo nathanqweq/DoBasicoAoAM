@@ -1,3 +1,16 @@
+# Jogo recriado por Nathan Quadros da Silva
+# Contatos:
+#   contato@nathanqsilva.com.br
+#   contato@cafecomnoc.website
+# Visite:
+#   nathanqsilva.com.br
+#   cafecomnoc.website
+
+#OBSERVAÇÕES
+# O codigo está feito para ser executado em maquinas windows devido ao comando cls
+# O codigo será executado normalmente no linux mas o comando os.system não fara a limpeza da tela
+# Para corrigir basta alterar todas as aparições de 'cls' para 'clear'
+
 #BIBLIOTECAS
 import random, os
 
