@@ -122,5 +122,3 @@ def menuprincipal():
 
 #MAIN
 menuprincipal()
-    print('voce digitou: ', values[0])
-tela.close()
